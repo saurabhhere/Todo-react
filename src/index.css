@@ -12,7 +12,7 @@ body {
 
 .App{
   background: #4c2a4c;
-  margin: 20px auto;
+  margin: 30px auto 100px auto;
   width: 90%;
   max-width: 700px;
   color: #eee;
@@ -54,7 +54,7 @@ body {
   color: #fff;
   font-size: 1.2em;
 }
-.todo-list .author{
+.todo-list .brief{
   font-size: 0.9em;
   color: #ddd;
 }
@@ -105,4 +105,15 @@ footer p {
 #credit a {
   text-decoration: none;
 
+}
+
+@media screen and (max-width: 425px){
+  html{height: 100%;}
+  body {
+  background-image: url(./bg-mobile.png);
+  background-size: cover;
+  background-repeat: repeat;
+    
+  }
+  #credit {margin-left: 20%;}
 }
